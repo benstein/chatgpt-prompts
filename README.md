@@ -1,4 +1,4 @@
-# chatgpt-prompts
+# ChatGPT Prompts for Productivity
 Much of the discourse around ChatGPT has been (a) how amazingly magical it is, (b) novel things you can do with it, (c) future technology developments, (d) implications for search, and (e) existential impacts on humanity.
 
 While all of that is true and interesting, it neglects that ***we all have a new tool in our toolbelt***. For me, ChatGPT sits alongside Excel, Google, my IDE, the CLI, etc as one of the ways I get work done in 2023.
