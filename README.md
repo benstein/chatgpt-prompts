@@ -111,3 +111,16 @@ Print a json blob representing 2 electrical panels that I can use for a test cas
 > - Gaurav Mishra
 
 ---
+
+## Prompt
+> i have a text file and i want to find all the rows that contain the phrase “exception” (case insensitive), sort them by date, and remove duplicates.  then i want to put that into a csv file. what’s the unix command to do that?
+
+## Response
+> Here's a Unix command that should accomplish the task you've described:
+> ```
+> grep -i "exception" file.txt | sort -t$'\t' -k3 | awk '!a[$1,$2,$3]++' | sed 's/\t/,/g' > output.csv
+> ```
+> This command assumes that your input file is in a specific format with tab-separated fields, and that the date information is in the third field. If your file is in a different format, you may need to adjust the command accordingly.
+
+
+
